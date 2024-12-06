@@ -86,10 +86,17 @@ header {
 }
 .logo-theo-header {
     width: 23rem;
-    transform: rotate(9.7deg);
+    transform: rotate(9.7deg) scale(4);
     position: absolute;
     top: -4rem;
     left: -5rem;
+    opacity: 0; /* Initialement invisible */
+    transition: transform 1s ease, opacity 1s ease;
+    z-index: 990;
+}
+.logo-theo-header.visible {
+    opacity: 1; /* Devient visible */
+    transform: rotate(-14.5deg) scale(1); /* Taille normale */
 }
 .texte-header {
     display: flex;
@@ -252,9 +259,15 @@ header {
 }
 .logo-theo-cta {
     width: 25.5rem;
-    transform: rotate(-14.5deg);
+    transform: rotate(-14.5deg) scale(1.5); /* Taille initiale agrandie */
     position: absolute;
     right: -5rem;
+    opacity: 0; /* Initialement invisible */
+    transition: transform 3s ease, opacity 2s ease;
+}
+.logo-theo-cta.visible {
+    opacity: 1; /* Devient visible */
+    transform: rotate(-14.5deg) scale(1); /* Taille normale */
 }
 /* fin cta */
 #projets {
@@ -401,3 +414,63 @@ footer hr {
     background-size: cover;
 }
 /* fin footer */
+
+
+/* @media (min-width: 1200px) {
+    .grid1 {
+      grid-template-columns: 3fr 3fr 3.5fr;
+    }
+    .grid2 {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+   */
+  /* Moyens écrans (tablettes) */
+  /* @media (max-width: 1199px) {
+    .grid1 {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+    .grid2 {
+      grid-template-columns: 1fr;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+      height: auto;
+    }
+    .texte-header h1 {
+      font-size: 4rem;
+    }
+  } */
+  
+  /* Petits écrans (mobiles) */
+  /* @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      width: auto;
+    }
+  
+    header {
+      height: auto;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .texte-header h1 {
+      font-size: 3rem;
+    }
+  
+    .grid1, .grid2 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #cta {
+      height: auto;
+      padding: 2rem;
+    }
+  
+    .bouton-cta {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  } */
