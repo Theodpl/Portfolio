@@ -406,7 +406,7 @@ footer hr {
     height: 3.5rem;
 }
 .logo-theo {
-    background-image: url(images/logo-theo-orange.png);
+    background-image: url("https://private-user-images.githubusercontent.com/190747492/393285245-21d614ba-4312-4b0b-aa63-e34e26c3fe1a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM0OTU1MjMsIm5iZiI6MTczMzQ5NTIyMywicGF0aCI6Ii8xOTA3NDc0OTIvMzkzMjg1MjQ1LTIxZDYxNGJhLTQzMTItNGIwYi1hYTYzLWUzNGUyNmMzZmUxYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwNlQxNDI3MDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02M2MyNjRhN2VkZThhN2MyNjQyMzZmM2ZhYzg3NDhkZmUwYzE1MDA2MTE4NjU1MWVkMmQ5NzdkYTNkZmViN2VmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.U5tO8TxnoqXGn5xabowPwKteElweglvgOzVx11gyBtw");
     background-size: cover;
 }
 .logo-linkedin-blanc {
