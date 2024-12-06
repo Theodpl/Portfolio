@@ -77,7 +77,7 @@ nav a:hover {
 }
 /* fin nav */
 header {
-    background-image: url(images/theo.png);
+    background-image: url("https://private-user-images.githubusercontent.com/190747492/393285265-68648e90-2ddc-4be7-ad36-23838d46f1cc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM0OTU1MjMsIm5iZiI6MTczMzQ5NTIyMywicGF0aCI6Ii8xOTA3NDc0OTIvMzkzMjg1MjY1LTY4NjQ4ZTkwLTJkZGMtNGJlNy1hZDM2LTIzODM4ZDQ2ZjFjYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIwNlQxNDI3MDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMDA2ZTY4MDcwMmZlMmUzNTQzMzFjMGZjNTk1YzJmZTBlNTcyNjAzNDEzYTM0YjY5OThjM2UyZTAwMWU1NmM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.I-CG32bHFmCvvZGQ0wmusHqVrCs--tF_w9HrMwBy8ws");
     background-size: cover;
     background-position: center;
     height: 100vh;
