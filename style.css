@@ -203,7 +203,7 @@ header {
     padding-bottom: 2rem;
 }
 .box5 {
-    background-image: url(images/img-box5.jpeg);
+    background-image: url("https://private-user-images.githubusercontent.com/190747492/393285224-1d7a76fe-5db1-4332-9e6e-8b9de3f7d5e3.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM0OTU1MjMsIm5iZiI6MTczMzQ5NTIyMywicGF0aCI6Ii8xOTA3NDc0OTIvMzkzMjg1MjI0LTFkN2E3NmZlLTVkYjEtNDMzMi05ZTZlLThiOWRlM2Y3ZDVlMy5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTIwNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDEyMDZUMTQyNzAzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmVmMjdmZWY5ZjU2ODc1NjhmMWIxNzA1MDMxZDBmYjQ5NTNlOTFmNmU4MzU5OWNhMGNlNjRjYjk1ZDNhYTMzOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.C2H6Cgjvkh1BH25pij51tElA1K2iCxc4C5IbiD3hWQI");
     background-size: cover;
     background-position: center;
 }
